@@ -2,7 +2,7 @@
 layout: workshop
 root: .
 venue: "University of Oslo"      # brief name of host site without address (e.g., "Euphoric State University")
-address: "The Science Library, Moltke Moes Road 35, 0851 Oslo"    # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
+address: "'Bikuben', Kristine Bonnevies hus, Blindernveien 31, Oslo"    # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
 country: "no"    # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"   # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "59.940120, 10.723464"     # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
@@ -93,7 +93,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong>
-  {{page.address}}.
+  {{page.address}}. See also <a href="http://www.mn.uio.no/ibv/om/bikuben/" >this link</a>. 
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
